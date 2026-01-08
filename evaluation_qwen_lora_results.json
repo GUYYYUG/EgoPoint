@@ -1,0 +1,1699 @@
+{
+    "summary": {
+        "total_processed": 101,
+        "mc_tf_accuracy": 77.52808988764045,
+        "counts": {
+            "mc_tf_total": 89,
+            "open_ended_total": 12
+        },
+        "type_breakdown": {
+            "True_False": {
+                "correct": 19,
+                "total": 22,
+                "is_evaluable": true
+            },
+            "Multiple_Choice": {
+                "correct": 50,
+                "total": 67,
+                "is_evaluable": true
+            },
+            "Open_Ended": {
+                "correct": 0,
+                "total": 12,
+                "is_evaluable": false
+            }
+        },
+        "dimension_breakdown_mc_tf": {
+            "Adversarial": {
+                "correct": 7,
+                "total": 10
+            },
+            "Context & Relation": {
+                "correct": 13,
+                "total": 13
+            },
+            "Basic Perception": {
+                "correct": 24,
+                "total": 34
+            },
+            "Affordance & Function": {
+                "correct": 25,
+                "total": 31
+            },
+            "OCR & Text": {
+                "correct": 0,
+                "total": 1
+            }
+        }
+    },
+    "details": [
+        {
+            "image_id": "real_27",
+            "question": "Is the object I am pointing to a type of mushroom?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L1",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_18",
+            "question": "Is this object located at the foot or the head of the bed?",
+            "options": [
+                "A. Under the bed",
+                "B. Center of the bed",
+                "C. Foot of the bed",
+                "D. Head of the bed"
+            ],
+            "answer": "D. Head of the bed",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Head of the bed",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_35",
+            "question": "Where is this object located relative to the sofa?",
+            "options": [
+                "A. Hanging on the wall behind the sofa",
+                "B. Resting on top of the sofa",
+                "C. Floating above the sofa",
+                "D. Underneath the sofa"
+            ],
+            "answer": "B. Resting on top of the sofa",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Resting on top of the sofa",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_9",
+            "question": "What best describes the object I am pointing at?",
+            "options": [
+                "A. Ground",
+                "B. Black bricks",
+                "C. Wolf",
+                "D. Glass"
+            ],
+            "answer": "C. Wolf",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Wolf",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_5",
+            "question": "What is the primary material of the object I am pointing at?",
+            "options": [
+                "A. Ceramic",
+                "B. Glass",
+                "C. Plastic",
+                "D. Wood"
+            ],
+            "answer": "A. Ceramic",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Ceramic",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_1",
+            "question": "Does the packaging of the object right here feature an image of a broom?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L2",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_8",
+            "question": "What is the primary function of the tool I am pointing at?",
+            "options": [
+                "A. Keeping feet warm and comfortable",
+                "B. Whisking ingredients to aerate them",
+                "C. Separating solids from liquids while cooking",
+                "D. Peeling the skin off vegetables"
+            ],
+            "answer": "C. Separating solids from liquids while cooking",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Separating solids from liquids while cooking",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_25",
+            "question": "What brand of beverage is this?",
+            "options": [
+                "A. Vitasoy",
+                "B. Wang Lao Ji",
+                "C. Coca-Cola",
+                "D. Oatly"
+            ],
+            "answer": "A. Vitasoy",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Vitasoy",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_33",
+            "question": "Is the object indicated by my finger located on the top or bottom row of the display?",
+            "options": [
+                "A. Hanging from the ceiling",
+                "B. Bottom row",
+                "C. Top row",
+                "D. On the floor"
+            ],
+            "answer": "C. Top row",
+            "dimension": "Context & Relation",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Top row",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_26",
+            "question": "Is this object a computer mouse?",
+            "options": [
+                "A. Unknown",
+                "B. Yes",
+                "C. Maybe",
+                "D. No"
+            ],
+            "answer": "D. No",
+            "dimension": "Adversarial",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Unknown",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_22",
+            "question": "What is the primary material of the object I am pointing at?",
+            "options": [
+                "A. Ceramic",
+                "B. Plastic",
+                "C. Metal",
+                "D. Glass"
+            ],
+            "answer": "D. Glass",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Metal",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_36",
+            "question": "Is this a brown cabinet?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_15",
+            "question": "What specific items are indicated by my finger?",
+            "options": [
+                "A. Brown teddy bears",
+                "B. Yellow display structure",
+                "C. Panda dolls",
+                "D. Penguin figurines"
+            ],
+            "answer": "C. Panda dolls",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Panda dolls",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_11",
+            "question": "Is the color of this item predominantly blue?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_40",
+            "question": "What is the primary function of the item I am pointing at?",
+            "options": [
+                "A. White desk",
+                "B. Container for holding wine",
+                "C. Heat the food",
+                "D. Place cups and other items"
+            ],
+            "answer": "B. Container for holding wine",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Place cups and other items",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "B",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_7",
+            "question": "What type of clothing item is this?",
+            "options": [
+                "A. Denim jeans",
+                "B. Black windbreaker jacket",
+                "C. Dark green windbreaker jacket",
+                "D. Puffer vest"
+            ],
+            "answer": "C. Dark green windbreaker jacket",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Dark green windbreaker jacket",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_38",
+            "question": "What is this object?",
+            "options": [
+                "A. Washbasin",
+                "B. Roll of paper towels",
+                "C. Laundry basket",
+                "D. Yellow bowl"
+            ],
+            "answer": "A. Washbasin",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Yellow bowl",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "A",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_13",
+            "question": "Is this object currently placed underneath the black cookware?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_10",
+            "question": "What is the specific category of the kitchen appliance I am pointing at?",
+            "options": [
+                "A. Dishwasher",
+                "B. Gas cooktop",
+                "C. Induction plate",
+                "D. Range hood"
+            ],
+            "answer": "B. Gas cooktop",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Range hood",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "B",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_14",
+            "question": "What specific type of produce is being indicated by the finger?",
+            "options": [
+                "A. Lettuce",
+                "B. Red onions",
+                "C. Edamame",
+                "D. Mung beans"
+            ],
+            "answer": "D. Mung beans",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Edamame",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_16",
+            "question": "what is the color of the object I am pointing at?",
+            "options": [
+                "A. Brown",
+                "B. Yellow",
+                "C. White",
+                "D. Black"
+            ],
+            "answer": "C. White",
+            "dimension": "Context & Relation",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. White",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_23",
+            "question": "What type of vegetable is contained in the package I am pointing at?",
+            "options": [
+                "A. Garlic",
+                "B. Brussels Sprouts",
+                "C. Red Onion",
+                "D. Radish"
+            ],
+            "answer": "C. Red Onion",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Radish",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "C",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_2",
+            "question": "What is the primary pattern visible on the item I am pointing at?",
+            "options": [
+                "A. Solid color",
+                "B. Floral print",
+                "C. Polka dots",
+                "D. Plaid or check"
+            ],
+            "answer": "D. Plaid or check",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Plaid or check",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_20",
+            "question": "What kind of flowers are these?",
+            "options": [
+                "A. White Carnations",
+                "B. Yellow Sunflowers",
+                "C. White Roses",
+                "D. Red Tulips"
+            ],
+            "answer": "A. White Carnations",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. White Roses",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "A",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_21",
+            "question": "Is the shape of the item I'm pointing at round?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Adversarial",
+            "deixis_level": "L1",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "True",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_28",
+            "question": "Is this object a bicycle?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_12",
+            "question": "What text is written on the side of the vehicle I am pointing at?",
+            "options": null,
+            "answer": "THE LAND BUSINESS CLASS",
+            "dimension": "OCR & Text",
+            "deixis_level": "L1",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nEHE LAND BUSINESS CLASS",
+            "extracted_answer": "EHE LAND BUSINESS CLASS",
+            "parsed_ground_truth": "THE LAND BUSINESS CLASS",
+            "is_correct": null
+        },
+        {
+            "image_id": "real_39",
+            "question": "What brand of beverage is the finger pointing towards?",
+            "options": [
+                "A. Ganten",
+                "B. Starbucks",
+                "C. Monster Energy",
+                "D. Coca-Cola"
+            ],
+            "answer": "B. Starbucks",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Starbucks",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_6",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To illuminate the room",
+                "B. To serve food and drinks",
+                "C. Wear it on the outside to stay warm.",
+                "D. Wear around the neck for warmth"
+            ],
+            "answer": "C. Wear it on the outside to stay warm.",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Wear around the neck for warmth",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "C",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_0",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Rolling out dough",
+                "B. Stirring soup",
+                "C. Measuring ingredients",
+                "D. Cutting vegetables"
+            ],
+            "answer": "A. Rolling out dough",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Rolling out dough",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_31",
+            "question": "What kind of fruit is contained in the package I am pointing at?",
+            "options": [
+                "A. Cherries",
+                "B. Raspberries",
+                "C. Strawberries",
+                "D. Red Grapes"
+            ],
+            "answer": "C. Strawberries",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Strawberries",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_32",
+            "question": "What type of produce is this?",
+            "options": [
+                "A. Potato",
+                "B. Cucumber",
+                "C. Radish",
+                "D. Apple"
+            ],
+            "answer": "C. Radish",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Radish",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_4",
+            "question": "What type of personal care device is contained in the package I am pointing at?",
+            "options": [
+                "A. Electric shaver",
+                "B. Shaving foam canister",
+                "C. Manual razor blade refill",
+                "D. Hair dryer"
+            ],
+            "answer": "A. Electric shaver",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Manual razor blade refill",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "A",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_17",
+            "question": "Is this a floor?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "False",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_3",
+            "question": "What type of food product is contained in the package I am pointing at?",
+            "options": [
+                "A. Ice cream",
+                "B. Frozen fish fillets",
+                "C. Frozen dumplings",
+                "D. Frozen shrimp"
+            ],
+            "answer": "D. Frozen shrimp",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Frozen dumplings",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "real_24",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To suspend clothing for storage or drying",
+                "B. To store liquid beverages",
+                "C. To clean surfaces",
+                "D. To package food items"
+            ],
+            "answer": "A. To suspend clothing for storage or drying",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. To suspend clothing for storage or drying",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_30",
+            "question": "Is this object located on the top shelf?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_41",
+            "question": "What is the primary function of the item I am pointing at?",
+            "options": [
+                "A. Measuring length",
+                "B. Drawing or coloring",
+                "C. Binding papers together",
+                "D. Erasing pencil marks"
+            ],
+            "answer": "B. Drawing or coloring",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Drawing or coloring",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_37",
+            "question": "What is the primary material of the object I am pointing at?",
+            "options": [
+                "A. Plastic",
+                "B. Bronze",
+                "C. Wood",
+                "D. Stone"
+            ],
+            "answer": "D. Stone",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Stone",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_19",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To drain water from the floor",
+                "B. To dispense water for bathing",
+                "C. To hang towels or robes",
+                "D. To hold soap and shampoo"
+            ],
+            "answer": "B. To dispense water for bathing",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. To dispense water for bathing",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "real_34",
+            "question": "Is the object I am pointing to located indoors or outdoors?",
+            "options": null,
+            "answer": "Outdoors",
+            "dimension": "Context & Relation",
+            "deixis_level": "L1",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nOutdoors",
+            "extracted_answer": "Outdoors",
+            "parsed_ground_truth": "Outdoors",
+            "is_correct": null
+        },
+        {
+            "image_id": "real_29",
+            "question": "What is the primary function of the item I am pointing at?",
+            "options": [
+                "A. Holding cutlery for drying",
+                "B. Filtering drinking water",
+                "C. Providing ambient lighting",
+                "D. Dispensing liquid soap or sanitizer"
+            ],
+            "answer": "D. Dispensing liquid soap or sanitizer",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Dispensing liquid soap or sanitizer",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_56",
+            "question": "What is the primary function of this object right here?",
+            "options": [
+                "A. Dispensing liquid soap",
+                "B. Toasting bread slices",
+                "C. Brewing coffee",
+                "D. Chopping vegetables"
+            ],
+            "answer": "B. Toasting bread slices",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Toasting bread slices",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_24",
+            "question": "Is this object right here positioned behind the armchair?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Context & Relation",
+            "deixis_level": "L2",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_34",
+            "question": "Is this placed directly between the trash can and the dining table?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_47",
+            "question": "What is the primary purpose of the object I am pointing at?",
+            "options": [
+                "A. Storing books",
+                "B. Holding food",
+                "C. Decorating a room",
+                "D. Protecting surfaces from drinks"
+            ],
+            "answer": "B. Holding food",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Decorating a room",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "B",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_0",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": null,
+            "answer": "providing illumination",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nTo provide light",
+            "extracted_answer": "To provide light",
+            "parsed_ground_truth": "providing illumination",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_4",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Organizing small folded items in horizontal drawers",
+                "B. Storing hanging clothes and larger garments",
+                "C. Providing a surface for sleeping",
+                "D. Allowing natural light and ventilation into the room"
+            ],
+            "answer": "B. Storing hanging clothes and larger garments",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Storing hanging clothes and larger garments",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_2",
+            "question": "Is this object right here primarily designed to dispense paper towels?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L2",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_28",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Displaying visual content",
+                "B. Organizing stationery",
+                "C. Storing written information",
+                "D. Reflecting light"
+            ],
+            "answer": "A. Displaying visual content",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Displaying visual content",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_15",
+            "question": "Does this object display any visible words?",
+            "options": null,
+            "answer": "False",
+            "dimension": "OCR & Text",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "False",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_41",
+            "question": "What is the primary purpose of the object I am pointing at?",
+            "options": null,
+            "answer": "To clean dishes.",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nTo eat food",
+            "extracted_answer": "To eat food",
+            "parsed_ground_truth": "To clean dishes.",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_42",
+            "question": "What is this used for?",
+            "options": null,
+            "answer": "Resting one's head or providing comfort",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L3",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nSleeping or resting",
+            "extracted_answer": "Sleeping or resting",
+            "parsed_ground_truth": "Resting one's head or providing comfort",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_55",
+            "question": "What is the primary use of the object I am pointing at?",
+            "options": [
+                "A. A piece of sports equipment",
+                "B. A book for reading",
+                "C. A decorative pillow",
+                "D. A comfort item or toy"
+            ],
+            "answer": "D. A comfort item or toy",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. A comfort item or toy",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_7",
+            "question": "Is the surface of this area right here covered in soft carpet fibers?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L2",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_19",
+            "question": "Where is this one positioned within the scene?",
+            "options": [
+                "A. On the far right side of the desk, adjacent to the white door",
+                "B. Underneath the desk, resting on the floor",
+                "C. Mounted on the wall directly above the computer screen",
+                "D. On the far left side of the desk, next to the monitor"
+            ],
+            "answer": "A. On the far right side of the desk, adjacent to the white door",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. On the far right side of the desk, adjacent to the white door",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_9",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To allow fresh air to circulate into the room.",
+                "B. To display small decorative items.",
+                "C. To block out sunlight and ensure privacy.",
+                "D. To hold the glass panes in place and provide structural support."
+            ],
+            "answer": "D. To hold the glass panes in place and provide structural support.",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. To block out sunlight and ensure privacy.",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_32",
+            "question": "Is this a laptop computer?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_46",
+            "question": "What is the primary function of this?",
+            "options": [
+                "A. Providing illumination",
+                "B. Storing books",
+                "C. Supporting a laptop",
+                "D. Holding plants"
+            ],
+            "answer": "A. Providing illumination",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Providing illumination",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_30",
+            "question": "Is this a living organism?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_16",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To detect smoke or fire hazards",
+                "B. To circulate or distribute airflow",
+                "C. To illuminate the room below",
+                "D. To support the weight of the ceiling tiles"
+            ],
+            "answer": "B. To circulate or distribute airflow",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. To circulate or distribute airflow",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_43",
+            "question": "What is the primary function of this?",
+            "options": [
+                "A. Holding liquids for drinking",
+                "B. Cutting food items",
+                "C. Storing clothes or linens",
+                "D. Writing on paper"
+            ],
+            "answer": "A. Holding liquids for drinking",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Storing clothes or linens",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "A",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_22",
+            "question": "What is this object right here?",
+            "options": [
+                "A. Pillow",
+                "B. Lamp",
+                "C. Cushion",
+                "D. Book"
+            ],
+            "answer": "A. Pillow",
+            "dimension": "Basic Perception",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Pillow",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_25",
+            "question": "What is the primary material of this?",
+            "options": [
+                "A. Wood",
+                "B. Fabric",
+                "C. Glass",
+                "D. Stone"
+            ],
+            "answer": "D. Stone",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Fabric",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_13",
+            "question": "Where is this object located relative to the bed?",
+            "options": null,
+            "answer": "directly above the bed",
+            "dimension": "Context & Relation",
+            "deixis_level": "L2",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nAbove the bed",
+            "extracted_answer": "Above the bed",
+            "parsed_ground_truth": "directly above the bed",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_45",
+            "question": "What is the primary function of this?",
+            "options": [
+                "A. Illuminating the room",
+                "B. Holding soap",
+                "C. Dispensing water",
+                "D. Draining waste"
+            ],
+            "answer": "C. Dispensing water",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Dispensing water",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_36",
+            "question": "What is the identity of the object I am pointing at?",
+            "options": [
+                "A. Picture",
+                "B. Television",
+                "C. Mirror",
+                "D. Window"
+            ],
+            "answer": "A. Picture",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Picture",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_1",
+            "question": "What is this positioned directly above?",
+            "options": [
+                "A. A dresser",
+                "B. Window blinds",
+                "C. An alarm clock",
+                "D. A dark bed skirt"
+            ],
+            "answer": "B. Window blinds",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Window blinds",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_37",
+            "question": "What is the primary category of that object over there?",
+            "options": [
+                "A. Vase",
+                "B. Coffee table",
+                "C. Side table",
+                "D. Sofa"
+            ],
+            "answer": "C. Side table",
+            "dimension": "Basic Perception",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Side table",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_54",
+            "question": "What is the primary utility of the object I am pointing at?",
+            "options": null,
+            "answer": "It is used as food",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nIt is used for cleaning.",
+            "extracted_answer": "It is used for cleaning.",
+            "parsed_ground_truth": "It is used as food",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_18",
+            "question": "Where is this area located relative to the white door?",
+            "options": null,
+            "answer": "To the left of the door",
+            "dimension": "Context & Relation",
+            "deixis_level": "L2",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nTo the left of the door",
+            "extracted_answer": "To the left of the door",
+            "parsed_ground_truth": "To the left of the door",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_38",
+            "question": "What is the primary function of this object right here?",
+            "options": [
+                "A. Storing clothes",
+                "B. Illuminating the room",
+                "C. Providing seating",
+                "D. Displaying decorations"
+            ],
+            "answer": "C. Providing seating",
+            "dimension": "Basic Perception",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Providing seating",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_14",
+            "question": "Is it true that this is a natural light source, such as a skylight?",
+            "options": null,
+            "answer": "False",
+            "dimension": "Adversarial",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nFalse",
+            "extracted_answer": "False",
+            "parsed_ground_truth": "False",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_35",
+            "question": "What is this?",
+            "options": [
+                "A. flowerpot",
+                "B. chandelier",
+                "C. basket",
+                "D. coffee table"
+            ],
+            "answer": "A. flowerpot",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. flowerpot",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_49",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Storing garbage for disposal",
+                "B. Cooling and preserving food",
+                "C. Providing a surface for sitting",
+                "D. Transporting items using wheels"
+            ],
+            "answer": "D. Transporting items using wheels",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. Transporting items using wheels",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_52",
+            "question": "What is this object right here?",
+            "options": [
+                "A. Bed",
+                "B. Table lamp",
+                "C. Floor lamp",
+                "D. Dresser"
+            ],
+            "answer": "C. Floor lamp",
+            "dimension": "Basic Perception",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Floor lamp",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_10",
+            "question": "Is this placed directly on top of the bedspread?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_23",
+            "question": "To which structural surface is this attached?",
+            "options": null,
+            "answer": "The ceiling",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nThe ceiling",
+            "extracted_answer": "The ceiling",
+            "parsed_ground_truth": "The ceiling",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_33",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To organize small items like spices.",
+                "B. To cook meals.",
+                "C. To wash dishes.",
+                "D. To keep food and beverages cold."
+            ],
+            "answer": "D. To keep food and beverages cold.",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nD. To keep food and beverages cold.",
+            "extracted_answer": "D",
+            "parsed_ground_truth": "D",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_12",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Illuminating the room with electric light",
+                "B. Storing literary collections",
+                "C. Providing a view and admitting daylight",
+                "D. Displaying decorative artwork"
+            ],
+            "answer": "C. Providing a view and admitting daylight",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Providing a view and admitting daylight",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_3",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To heat the surrounding space",
+                "B. To filter dust and allergens from the air",
+                "C. To circulate cool air during hot weather",
+                "D. To provide artificial lighting for the room"
+            ],
+            "answer": "A. To heat the surrounding space",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. To heat the surrounding space",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_31",
+            "question": "What is the name of this?",
+            "options": null,
+            "answer": "computer",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\ncomputer monitor",
+            "extracted_answer": "computer monitor",
+            "parsed_ground_truth": "computer",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_29",
+            "question": "Is this a mirror?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_27",
+            "question": "What is this object right here?",
+            "options": [
+                "A. A set of table and chairs",
+                "B. A hanging light fixture",
+                "C. A barbecue grill",
+                "D. A large wooden planter box"
+            ],
+            "answer": "A. A set of table and chairs",
+            "dimension": "Basic Perception",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. A hanging light fixture",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "A",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_39",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Providing comfortable seating",
+                "B. Containing and disposing of waste",
+                "C. Illuminating a dark room",
+                "D. Storing fresh produce in a refrigerator"
+            ],
+            "answer": "B. Containing and disposing of waste",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Containing and disposing of waste",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_40",
+            "question": "What is the name of the object I am pointing at?",
+            "options": [
+                "A. Mattress",
+                "B. Pillow",
+                "C. Remote control",
+                "D. Cushion"
+            ],
+            "answer": "B. Pillow",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Pillow",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_11",
+            "question": "Why is this made of carpet?",
+            "options": null,
+            "answer": "It is not made of carpet; it appears to be wood or laminate flooring",
+            "dimension": "Adversarial",
+            "deixis_level": "L3",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nIt is not made of carpet; it is made of wood",
+            "extracted_answer": "It is not made of carpet; it is made of wood",
+            "parsed_ground_truth": "It is not made of carpet; it appears to be wood or laminate flooring",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_57",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To provide localized illumination",
+                "B. To serve as a surface for writing",
+                "C. To store books and magazines",
+                "D. To display visual media content"
+            ],
+            "answer": "A. To provide localized illumination",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. To provide localized illumination",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_5",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Supporting feet while sitting elsewhere",
+                "B. Preparing and cooking meals",
+                "C. Formal dining and eating",
+                "D. Seating multiple people for relaxation"
+            ],
+            "answer": "D. Seating multiple people for relaxation",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Supporting feet while sitting elsewhere",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "D",
+            "is_correct": false
+        },
+        {
+            "image_id": "sim_50",
+            "question": "Is it primarily designed for striking a projectile in a game?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_6",
+            "question": "What is the primary function of this object right here?",
+            "options": [
+                "A. To display artwork or photographs.",
+                "B. To regulate room temperature.",
+                "C. To provide structural support and hold the glass in place.",
+                "D. To block light and provide privacy."
+            ],
+            "answer": "C. To provide structural support and hold the glass in place.",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. To provide structural support and hold the glass in place.",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_48",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Changing channels on a television",
+                "B. Storing clothes and personal items",
+                "C. Making calls and sending messages",
+                "D. Providing illumination for the room"
+            ],
+            "answer": "C. Making calls and sending messages",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Making calls and sending messages",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_21",
+            "question": "What is it positioned above?",
+            "options": null,
+            "answer": "The bed",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "Open_Ended",
+            "model_output": "<think>\n\n</think>\n\nA bed",
+            "extracted_answer": "A bed",
+            "parsed_ground_truth": "The bed",
+            "is_correct": null
+        },
+        {
+            "image_id": "sim_20",
+            "question": "Is this positioned directly above the washing machine?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Context & Relation",
+            "deixis_level": "L3",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_8",
+            "question": "What is the primary function of the object indicated by my finger?",
+            "options": [
+                "A. Playing musical compositions",
+                "B. Climbing to the upper floor",
+                "C. Opening to access another room",
+                "D. Storing folded clothing"
+            ],
+            "answer": "A. Playing musical compositions",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Playing musical compositions",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_53",
+            "question": "What is the object I am pointing at?",
+            "options": [
+                "A. Folded towel",
+                "B. Pillow",
+                "C. Panda plushie",
+                "D. Blanket"
+            ],
+            "answer": "B. Pillow",
+            "dimension": "Basic Perception",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nB. Pillow",
+            "extracted_answer": "B",
+            "parsed_ground_truth": "B",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_26",
+            "question": "What is the primary intended use of this object right here?",
+            "options": [
+                "A. Securing the weight plates to the bar",
+                "B. Simulating a rowing motion for cardio",
+                "C. Supporting the body in a seated or inclined position",
+                "D. Providing a mechanism for stationary cycling"
+            ],
+            "answer": "C. Supporting the body in a seated or inclined position",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L2",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Supporting the body in a seated or inclined position",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_17",
+            "question": "Is the object I am pointing at primarily used for reflecting light and images?",
+            "options": null,
+            "answer": "True",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "True_False",
+            "model_output": "<think>\n\n</think>\n\nTrue",
+            "extracted_answer": "True",
+            "parsed_ground_truth": "True",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_44",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. Dispensing paper",
+                "B. Brushing teeth",
+                "C. Washing or cleaning",
+                "D. Eating"
+            ],
+            "answer": "C. Washing or cleaning",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. Washing or cleaning",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_51",
+            "question": "What is this?",
+            "options": [
+                "A. Cardboard box",
+                "B. Pillow",
+                "C. Hardcover book",
+                "D. Wooden crate"
+            ],
+            "answer": "A. Cardboard box",
+            "dimension": "Basic Perception",
+            "deixis_level": "L3",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nA. Cardboard box",
+            "extracted_answer": "A",
+            "parsed_ground_truth": "A",
+            "is_correct": true
+        },
+        {
+            "image_id": "sim_58",
+            "question": "What is the primary function of the object I am pointing at?",
+            "options": [
+                "A. To reflect an image",
+                "B. To tell time",
+                "C. To display art",
+                "D. To hold a plant"
+            ],
+            "answer": "C. To display art",
+            "dimension": "Affordance & Function",
+            "deixis_level": "L1",
+            "type": "Multiple_Choice",
+            "model_output": "<think>\n\n</think>\n\nC. To display art",
+            "extracted_answer": "C",
+            "parsed_ground_truth": "C",
+            "is_correct": true
+        }
+    ]
+}

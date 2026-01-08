@@ -12,7 +12,7 @@ Our benchmark comprises **11,729 high-fidelity samples** (10,567 simulation and 
 
 EgoPoint-Bench is constructed using a dual-source strategy: a scalable simulation pipeline (**Point-Sim**) and rigorous **Real-world** collection.
 
-![egopoint-overview](./paper_img/egopoint-overview.pdf)
+![egopoint-overview](./paper_img/egopoint-overview.png)
 
 > *Overview of the EgoPoint-Bench construction pipeline, including Point-Sim framework, real-world data collection, and capability dimensions.*
 
@@ -45,7 +45,7 @@ We introduce a hierarchical taxonomy to cover the full spectrum of referential a
 - **L2 (Visual Locative):** Implies spatial proximity (e.g., *"that thing over there"*).
 - **L3 (Implicit Pronoun):** Relies purely on visual context (e.g., *"this"*).
 
-![Figure 2c: Distribution of Deixis Levels](./paper_img/deixis_level.pdf)
+![Figure 2c: Distribution of Deixis Levels](./paper_img/deixis_level.png)
 
 > *Distribution of Deixis Levels across Sim and Real datasets.*
 
@@ -57,7 +57,7 @@ To balance ecological validity with objective benchmarking, we employ a hybrid f
 - **True/False (TF):** For rapid discriminative testing.
 - **Open-Ended (OQ):** To reflect natural human inquiry (evaluated via LLM-as-a-Judge).
 
-![Figure 9: Option distribution](./paper_img/answer_statistics.png)
+<img src="./paper_img/answer_statistics.png" alt="Figure 9: Option distribution" style="zoom:25%;" />
 
 > *Distribution of answer types in the training set, ensuring no answer bias.*
 
@@ -69,7 +69,7 @@ Current state-of-the-art MLLMs often fail to precisely ground the spatial semant
 
 - **Object Saliency:** Visually prominent entities regardless of the pointing ray.
 
-![Figure 9: error samples](./paper_img/error_lora.pdf)
+![Figure 9: error samples](./paper_img/error_lora.png)
 
 We term this phenomenon **"Referential Hallucination"**.
 

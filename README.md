@@ -18,14 +18,14 @@ EgoPoint-Bench is constructed using a dual-source strategy: a scalable simulatio
 
 ### 2.1 Data Scale and Distribution
 
-| **Source** | **Subset**       | **Train** | **Val** | **Test**  | **Total**  | **Avg. QA Len** |
+| **Source** | **Subset**       | **Train** | **Val** | **Test**  | **Total**  | **Avg. Q Len** |
 | ---------- | ---------------- | --------- | ------- | --------- | ---------- | --------------- |
 | **Sim**    | HM3D             | 3,227     | 365     | 718       | 4,310      | 10.12           |
 |            | HSSD             | 1,964     | 214     | 605       | 2,783      | 8.68            |
 |            | AI2-THOR         | 1,982     | 220     | 606       | 2,808      | 10.22           |
 |            | ReplicaCAD       | 601       | 65      | -         | 666        | 8.67            |
 | **Real**   | MLVision Capture | -         | -       | **1,162** | **1,162**  | **11.02**       |
-| **Total**  |                  | **7,774** | **864** | **2,485** | **11,729** | **9.81**        |
+| **Total**  |                  | **7,774** | **864** | **3,091** | **11,729** | **9.81**        |
 
 ### 2.2 Capability Taxonomy (5 Dimensions)
 
@@ -87,7 +87,7 @@ Plaintext
 │   ├── real_001.jpg
 │   ├── sim_001.jpg
 │   └── ...
-├── mini_dataset.json               # Metadata for sample images (Q, A, Dimensions)
+├── mini_dataset.json               # Metadata for sample images (Q, A, Dimensions, Deixis Level)
 ├── evaluation_qwen_results.json    # Baseline results on the mini-dataset (Qwen3-VL-8B)
 └── evaluation_qwen_lora_results.json # Results after LoRA fine-tuning on Sim data
 ```

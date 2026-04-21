@@ -1,1 +1,46 @@
 .DS_Store
+
+# macOS / editor
+**/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.cache/
+wandb/
+
+# Dataset images not tracked in git (hosted externally)
+realdata_benchmark/test_img/
+simdata_benchmark/test_img/
+
+# Model outputs / checkpoints
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+saves/

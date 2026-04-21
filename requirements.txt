@@ -53,7 +53,7 @@ joblib==1.5.3
 kiwisolver==1.4.9
 lazy_loader==0.4
 librosa==0.11.0
--e git+https://github.com/hiyouga/LLaMA-Factory.git@ddd7dcc7223e4232f06af417148cd3a161c81e04#egg=llamafactory
+llamafactory @ git+https://github.com/hiyouga/LLaMA-Factory.git@ddd7dcc7223e4232f06af417148cd3a161c81e04#egg=llamafactory
 llvmlite==0.46.0
 markdown-it-py==4.0.0
 MarkupSafe==2.1.5

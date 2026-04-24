@@ -120,15 +120,16 @@ EgoPoint-Bench is constructed using a dual-source strategy: a scalable simulatio
 - **L2 (Visual Locative):** Implies spatial proximity (e.g., "that thing over there").
 - **L3 (Implicit Pronoun):** Relies purely on visual context (e.g., "this").
 
-![deixis-level](./paper_img/deixis_level.png)
-
 ### 5.4 Question Types
 
 - **Multiple Choice (SCQ):** For rigorous automated evaluation.
 - **True/False (TF):** For rapid discriminative testing.
 - **Open-Ended (OQ):** For natural human inquiry (generation-oriented evaluation).
 
-![answer-statistics](./paper_img/answer_statistics.png)
+<p align="center">
+  <img src="./paper_img/deixis_level.png" alt="deixis-level" width="49%" />
+  <img src="./paper_img/answer_statistics.png" alt="answer-statistics" width="49%" />
+</p>
 
 ## 6. Repository Structure
 

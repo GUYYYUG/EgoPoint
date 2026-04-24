@@ -1,6 +1,6 @@
 ![EgoPointBench Logo](./paper_img/logo.png)
 
-<h2 align="center"><a href="https://arxiv.org/abs/2604.21461">arXiv</a> ｜ <a href="https://huggingface.co/datasets/GUYYYUG/EgoPoint">Dataset</a> ｜ <a href="https://huggingface.co/GUYYYUG/EgoPoint-LoRA">Model</a></h2>
+<h3 align="center"><a href="https://arxiv.org/abs/2604.21461">arXiv</a> ｜ <a href="https://huggingface.co/datasets/GUYYYUG/EgoPoint">Dataset</a> ｜ <a href="https://huggingface.co/GUYYYUG/EgoPoint-LoRA">Model</a></h3>
 
 ---
 

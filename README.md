@@ -1,4 +1,10 @@
-# EgoPoint-Bench: Benchmarking and Enhancing Referential Reasoning in Egocentric Vision
+![EgoPointBench Logo](./paper_img/logo.png)
+
+<p align="center"><a href="https://arxiv.org/abs/2604.21461">arXiv</a> ｜ <a href="https://huggingface.co/datasets/GUYYYUG/EgoPoint">Dataset</a> ｜ <a href="https://huggingface.co/GUYYYUG/EgoPoint-LoRA">Model</a></p>
+
+---
+
+# Do MLLMs Understand Pointing? Benchmarking and Enhancing Referential Reasoning in Egocentric Vision
 
 ## 1. Introduction
 
@@ -149,4 +155,16 @@ llamafactory-cli train /absolute/path/to/EgoPoint/train_lora_code/qwen3_vl_lora_
 
 ## 8. Citation
 
-If you use this repository, please cite the corresponding EgoPoint-Bench paper (citation entry will be added).
+If you use this repository, please cite:
+
+```bibtex
+@misc{li2026mllmsunderstandpointingbenchmarking,
+      title={Do MLLMs Understand Pointing? Benchmarking and Enhancing Referential Reasoning in Egocentric Vision},
+      author={Chentao Li and Zirui Gao and Mingze Gao and Yinglian Ren and Jianjiang Feng and Jie Zhou},
+      year={2026},
+      eprint={2604.21461},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.21461},
+}
+```

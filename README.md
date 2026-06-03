@@ -141,6 +141,7 @@ EgoPoint-Bench is constructed using a dual-source strategy: a scalable simulatio
 ├── simdata_benchmark/       # sim benchmark JSON (images downloaded separately)
 ├── paper_img/
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -169,3 +170,7 @@ If you use this repository, please cite:
       url={https://arxiv.org/abs/2604.21461},
 }
 ```
+
+## 9. License
+
+This project is licensed under the Apache License 2.0. See [LICENSE](./LICENSE) for details.

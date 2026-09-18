@@ -56,7 +56,7 @@ Due to file volume, images are **not** stored in this GitHub repo. Please downlo
 
 ### Step 2: Download base model
 
-Download `Qwen3-VL-8B-Instruct` from Hugging Face.
+Download `Qwen/Qwen3-VL-8B-Instruct` from Hugging Face.
 
 ### Step 3: Download LoRA weights
 
